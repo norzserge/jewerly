@@ -2,4 +2,4 @@
 
 Данный шаблон разрабатывался для сайта ювелирного магазина на битрикс.
 Основные страницы
-- [Главная](http://mitra.blogo-daru.ru/){:target="_blank"}
+- [Главная](http://mitra.blogo-daru.ru/){target="_blank"}
