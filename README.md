@@ -1,0 +1,1 @@
+# Jewerly e-shop template
