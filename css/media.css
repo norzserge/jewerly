@@ -1,0 +1,120 @@
+/* portrait - телефоны */
+@media (max-width: 480px) {
+	.navbar-nav>li:nth-child(1) a {
+	    padding-left: 15px; 
+	}
+	.carousel-inner .item img {
+		width: 100%;
+	}
+	.two-column li,
+	.help-block {
+		font-size: 1.2rem;
+	}
+	.sidebar-left-menu li {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+	.catalog-item {
+	    text-align: center;
+	}
+}
+
+/* От ландшафтного экрана телефона до потретного планшета */
+@media (max-width: 767px) {
+	.header-phone,
+	.header-auth {
+		text-align: center;
+		padding-top: 0;
+	}
+	.navbar-inverse .navbar-collapse {
+	    padding-left: 15px; 
+	    border: none;
+	}
+	.menu-search-wrap {
+	    padding-right: 15px;
+	}
+	.header-phone,
+	.header-auth {
+		text-align: center;
+		padding-top: 0;
+	}
+	.header-phone {
+		margin-bottom: 20px;
+	}
+	.header-logo {
+		margin-bottom: 30px;
+	}
+	.sidebar-left-menu li {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+	.navbar-nav>li:nth-child(1) a {
+	    padding-left: 15px; 
+	}
+	.catalog-item {
+	    text-align: center;
+	}
+	.catalog-menu-top {
+	    display: block;
+	}
+	.catalog-menu-top li {
+	    display: inline-block;
+	    text-align: left; 
+	    width: auto; 
+	    margin-right: 12px;
+	}
+	.footer-copyright,
+	.footer-phone,
+	.footer-icons {
+		text-align: center;
+	}
+}
+
+/* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-phone {
+		margin-bottom: 20px;
+	}
+	.header-logo {
+		margin-bottom: 30px;
+	}
+	/* search - width:100% */
+	.navbar-nav {
+	    margin-bottom: 10px;
+	}
+	.navbar-right {
+	    float: none!important; 
+	    margin-right: -15px;
+	    margin-left: -15px;
+	}
+	.navbar-form .form-group,
+	.navbar-form .form-control {
+	    width: 100%;
+	}
+	.catalog-item-name {
+	    min-height: 48px;
+	}
+	.catalog-menu-top {
+	    display: block;
+	}
+	.catalog-menu-top li {
+	    display: inline-block;
+	    text-align: left; 
+	    width: auto; 
+	    margin-right: 12px;
+	}
+	/* /search */
+	.sidebar-left-menu li {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* Большой дисплей */
+@media (min-width: 1200px) {
+
+}
